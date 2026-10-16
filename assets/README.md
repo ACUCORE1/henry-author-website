@@ -1,8 +1,8 @@
 # Site images
 
-Place approved image files in this folder and reference them from `script.js` using paths relative to the project root.
+Place approved image files in this folder if they are added to the website. The current book-cover graphics and author portrait are CSS-created placeholders; there are no real photographs or covers included.
 
-- Author portrait: add the professional portrait here and set `SITE_CONFIG.authorPortrait` to its path. The About section can use the same image.
-- Book covers: add each authorized cover here and set that book's `cover` value in the `BOOKS` array.
+- Author portrait: add an approved professional portrait before replacing the labeled placeholder in `index.html`.
+- Book covers: add authorized cover artwork and update the corresponding book entry in `script.js` to use it.
 
-Use optimized JPG, PNG, or WebP images. The page supplies labeled, styled placeholders when paths are blank; no real photographs or covers are included in this starter project.
+Use optimized JPG, PNG, or WebP images. Publish only images Henry owns or has permission to use.

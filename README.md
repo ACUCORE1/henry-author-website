@@ -29,19 +29,11 @@ In GitHub Codespaces, open the **Ports** tab, forward port `8000` if it is not f
 
 ## Configure the site
 
-Open `script.js` and edit the `SITE_CONFIG` object near the top:
-
-- Replace the biography placeholder fields in the About section in `index.html` only with approved, verified copy.
-- Set `authorPortrait` to the relative path of the real author portrait, such as `assets/henry-portrait.jpg`.
-- Replace each placeholder entry in `BOOKS` with approved titles and descriptions, add a cover path, and set a real `purchaseUrl` when one exists.
-- Add actual bookstore, direct-purchase, WhatsApp, email, phone, and social destinations to the matching configuration fields. Leave a value empty to keep that link hidden or unavailable.
-- Add only genuine, approved reviews to `TESTIMONIALS`. The testimonials section stays hidden when this array is empty.
-
-No contact form is included: a static HTML site cannot deliver messages without a backend or form service. The configured email link is the simple alternative.
+The website currently uses clearly labeled placeholders for book titles, descriptions, cover artwork, upcoming books, biography details, news, and contact information. Replace them only with approved, verified details. Book entries live in the `books` array in `script.js`; add a real `purchaseUrl` there only when a confirmed purchase destination is available.
 
 ## Images
 
-Put the portrait and book covers in `assets/` and use their relative paths in `script.js`. Use images Henry owns or has permission to publish. The site displays a labeled placeholder when an image path is not configured.
+Put approved author portraits or book covers in `assets/` and add them to the page only when available. The current graphic covers and portrait illustration are CSS-created placeholders, not photographs or published cover art. Use images Henry owns or has permission to publish.
 
 ## Deploy
 
